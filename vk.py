@@ -71,8 +71,8 @@ browser.maximize_window()
 #
 #browser.set_window_size(500,500,'current')
 #time.sleep(2)
-browser.find_element_by_name("username").send_keys('15522850688')
-browser.find_element_by_name("password").send_keys('bang1125')
+browser.find_element_by_name("username").send_keys('YOUURNAME')
+browser.find_element_by_name("password").send_keys('YOURPWD')
 browser.find_element_by_id("js-submit-btn").click()
 time.sleep(2)
 for i in (0,10):
